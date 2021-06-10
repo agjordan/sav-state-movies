@@ -1,0 +1,11 @@
+.searchBar {
+  width: 25vw;
+}
+.searchResults {
+  border: 1px solid black;
+  .resultFilm {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
